@@ -1,0 +1,18 @@
+#ifndef DEFINES_H
+#define DEFINES_H
+#define MIN_ROW_COUNT 3
+#define MIN_COL_COUNT 3
+#define MAX_ROW_COUNT 7
+#define MAX_COL_COUNT 7
+#define DEFAULT_ROW_COUNT 4
+#define DEFAULT_COL_COUNT 4
+#define BUTTON_WIDTH 85
+#define BUTTON_HEIGHT 85
+#define PUZZLE_PICTURE_SIZE 430
+#define GRID_SPACING 5
+#define GRID_SPACING_BETWEEN_PICTURE_TILES 1
+#define MIN_FORM_WIDTH 340
+#define MIN_FORM_HEIGHT 60
+enum class Direction {UP, DOWN, RIGHT, LEFT, NOT};
+
+#endif // DEFINES_H
